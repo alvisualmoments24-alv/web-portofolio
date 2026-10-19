@@ -576,14 +576,14 @@ html[data-theme="light"] .theme-toggle__thumb {
 
 .project-card__media--screenshot {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   background-color: #f7f8fc;
 }
 
 .project-card__media--commerce {
   background-image:
     linear-gradient(180deg, rgba(4, 14, 22, 0.04), rgba(4, 14, 22, 0.1)),
-    url("../images/odooproject.png");
+    url("../images/prewed1.jpeg");
 }
 
 .project-card__media--commerce::before {
@@ -597,7 +597,7 @@ html[data-theme="light"] .theme-toggle__thumb {
 .project-card__media--wallet {
   background-image:
     linear-gradient(180deg, rgba(4, 14, 22, 0.04), rgba(4, 14, 22, 0.1)),
-    url("../images/dreamgirlproject.png");
+    url("../images/sport.jpeg");
 }
 
 .project-card__media--wallet::before {
@@ -611,10 +611,7 @@ html[data-theme="light"] .theme-toggle__thumb {
 .project-card__media--saas {
   background-image:
     linear-gradient(180deg, rgba(4, 14, 22, 0.04), rgba(4, 14, 22, 0.1)),
-    url("../images/resepdapurproject.png");
-  background-size: cover, contain;
-  background-position: center, center;
-  background-repeat: no-repeat, no-repeat;
+    url("../images/graduation.jpeg");
 }
 
 .project-card__media--saas::before {
@@ -732,8 +729,8 @@ html[data-theme="light"] .toolbelt {
 }
 
 .tool-logo__mark img {
-  width: 22px;
-  height: 22px;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
 }
 
