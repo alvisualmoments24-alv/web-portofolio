@@ -567,6 +567,11 @@ html[data-theme="light"] .theme-toggle__thumb {
   position: relative;
   overflow: hidden;
 }
+.project-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .project-card__media::before,
 .project-card__media::after {
@@ -597,7 +602,7 @@ html[data-theme="light"] .theme-toggle__thumb {
 .project-card__media--wallet {
   background-image:
     linear-gradient(180deg, rgba(4, 14, 22, 0.04), rgba(4, 14, 22, 0.1)),
-    url("../images/sport.jpeg");
+    url("../assets/images/sport.jpeg");
 }
 
 .project-card__media--wallet::before {
